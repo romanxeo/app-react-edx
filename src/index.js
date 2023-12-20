@@ -3,25 +3,25 @@ import ReactDOM from 'react-dom';
 
 const App = () => {
 
-    const [dd, setdd] = useState(false)
-
-    console.log("HELLO WORLD");
-
-    useEffect(() => {
-        setTimeout(() => {
-            setdd(true)
-        }, 3000)
-    }, [])
-
-    if (dd) {
-        return (
-            <div>HER</div>
-        )
-    }
+    // const [dd, setdd] = useState(false)
+    //
+    // console.log("HELLO WORLD");
+    //
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setdd(true)
+    //     }, 3000)
+    // }, [])
+    //
+    // if (dd) {
+    //     return (
+    //         <div>HER</div>
+    //     )
+    // }
 
     return (
         <div>
-            Hello world!!!!!!!!!!!!!!!!!!!!!!!!!!
+            Hello worl111
         </div>
     )
 }
